@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BABY ABC</string>
+    <string name="objective">
+        Baby ABC is a self learning mobile application for babies.
+        It is not only a app but also a book. As it is a self learning
+        application so no teachers need to sit beside to the babies.
+    </string>
+    <string name="copyright">
+        Copyright \u00A9 2019 Batch-03, BITI, Ltd.
+        \nAll rights reserved under ICT Division.
+    </string>
+    <string name="data_analysis">
+        <b>Data collecton and analysis:</b>
+                \n\n\t\t\t\t\t\t\t\tMohammad Al-amin
+                \n\t\t\t\t\t\t\t\tMehedi Hasan
+    </string>
+    <string name="ui_ux_graphics">
+        <b>UI/UX, Graphics and Animation:</b>
+                \n\n\t\t\t\t\t\t\t\tAbdulla All Mamun
+                \n\t\t\t\t\t\t\t\tAmit Kumar Sarkar
+                \n\t\t\t\t\t\t\t\tMd. Nayem Howlader
+                \n\t\t\t\t\t\t\t\tMd. Shazzat Hossain
+                \n\t\t\t\t\t\t\t\tMd. Mehadi Hasan
+                \n\t\t\t\t\t\t\t\tMd. Abdul Kader Fysal
+    </string>
+    <string name="developer">
+        <b>Developers:</b>
+                \n\n\t\t\t\t\t\t\t\tMD. OLI ULLAH
+                \n\t\t\t\t\t\t\t\tGazi Fahim Hasan
+                \n\t\t\t\t\t\t\t\tMd. Jahirul Islam
+                \n\t\t\t\t\t\t\t\tPromel Barua
+    </string>
+    <string name="sound">
+        <b>Voice Artists:</b>
+                \n\n\t\t\t\t\t\t\t\tMd. Shafaith Rezve(Guest Vocal)
+                \n\t\t\t\t\t\t\t\tFarhana Islam Anny(Guest Vocal)
+    </string>
+    <string name="testing">
+        <b>Testing and Quality Checking:</b>
+                \n\n\t\t\t\t\t\t\t\tAriful Islam Anik
+                \n\t\t\t\t\t\t\t\tMd. Rezuwanul Islam
+    </string>
+    <string name="manager">
+        <b>Project Manager:</b>
+                \n\n\t\t\t\t\t\t\t\tNafiz Hasan Antor
+    </string>
+
+    <string name="conducted">___Conducted By___</string>
+</resources>

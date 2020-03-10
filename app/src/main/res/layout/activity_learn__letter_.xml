@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/homepage_background"
+    tools:context="com.logicaltriangle.babyabc.Learn_Letter_Activity">
+                <!--      Home Button       -->
+    <Button
+        android:id="@+id/letter_home_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/home"
+        android:layout_margin="20dp"
+        android:layout_alignParentLeft="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:padding="20dp">
+            <!--      Sound Button       -->
+        <Button
+            android:id="@+id/letter_sound_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/volume_on"/>
+            <!--      Keyboard Button       -->
+        <Button
+            android:id="@+id/letter_keyboard_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/keyboard_on"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+             <!--      Previous Button       -->
+        <Button
+            android:id="@+id/letter_pre"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/arrow_left"
+            android:textSize="80dp"/>
+            <!--      Next Button       -->
+        <Button
+            android:id="@+id/letter_next"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/arrow_right"
+            android:textSize="80dp"/>
+    </RelativeLayout>
+                    <!--  character background   -->
+    <LinearLayout
+        android:id="@+id/back_layout_letter"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:background="@drawable/girl_mouth_close"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="2">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="60dp">
+
+            <!--  Letter Button   -->
+            <LinearLayout
+                android:id="@+id/rela"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/letter_btn"
+                    android:layout_width="76dp"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:text="A"
+                    android:textColor="#D7902E"
+                    android:textSize="100dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+                <TextView
+                    android:id="@+id/tvLowerCase"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:textColor="#D7902E"
+                    android:padding="0dp"
+                    android:textAlignment="center"
+                    android:text="a"
+                    android:layout_alignRight="@id/rela"
+                    android:layout_alignBottom="@+id/rela"/>
+        </RelativeLayout>
+
+        <!--  Letter Image Button   -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:padding="10dp"
+            android:layout_weight="1">
+        <Button
+            android:id="@+id/letter_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="100dp"
+            android:background="@drawable/a"/>
+        </LinearLayout>
+    </LinearLayout>
+        <!--  Recycler view for keyboard  -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/letter_list"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
